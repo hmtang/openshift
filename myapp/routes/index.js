@@ -12,6 +12,6 @@ router.get('/about', function(req, res, next){
 
 router.get('/about', function (req, res) {
   res.send('About birds');
-})
+});
 
 module.exports = router;
